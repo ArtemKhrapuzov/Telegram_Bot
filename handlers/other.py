@@ -10,7 +10,7 @@ async def echo_send(message: types.Message):
         await message.reply('Маты запрещены')
         await message.delete()
     if message.text.lower() == 'привет':
-        await message.reply('И тебе привет!')
+        await message.reply('И тебе привет!!')
 
 
 def register_handlers_clients(dp: Dispatcher):
